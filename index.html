@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Dai a Cezar</title>
+</head>
+
+<body>
+
+    <header class="titulo">
+        <h1>Dai a Cezar</h1>
+    </header>
+
+    <div class="container">
+        <form id='form' action="">
+
+            <section class="select">
+
+                <label for="criptografia"> criptografia </label>
+                <select id='opcao' name="" >
+                    <option value="cesar">cifra de cesar</option>
+                    <option value="base">base 64</option>
+                </select>
+
+            </section>
+
+            <section class="input">
+                <input type="text">
+                <input type="text" disabled>
+
+            </section>
+                <section id="section-cesar">
+                    <input id="chave"type="number">
+                </section>
+                <section id="input">
+                <label for="criptografar">criptografar</label>
+                <input id="decifrar" type="radio">
+                <label for="descriptografar">descriptografar</label>
+                <input id="codificar" type="radio">
+           
+
+            <button id="submit" type="submit">
+                criptografar
+            </button>
+         </section>
+        </form>
+    </div>
+<script src="./index.js"></script> 
+</body>
+
+</html>

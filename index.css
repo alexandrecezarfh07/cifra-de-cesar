@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.titulo{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.container, .select, .input {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
